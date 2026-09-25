@@ -1,0 +1,30 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled List</title>
+    <style>
+        ul {
+            list-style-type: disc; /* Default bullet point style */
+            margin: 10px; /* Adjusts the margin around the list */
+            padding: 0; /* Removes default padding */
+        }
+        li {
+			list-style-type: disc; /* Default bullet point style */
+            margin-bottom: 1px; /* Adds space between list items */
+            font-family: Arial, sans-serif; /* Sets the font for the list items */
+        }
+        /* Example of customizing bullet points */
+        ul.custom-bullets {
+            list-style-type: square; /* Changes bullets to squares */
+            padding-left: 20px; /* Adjusts padding to fit bullets */
+        }
+        ul.custom-bullets li {
+            color: #333; /* Sets text color */
+        }
+    </style>
+
